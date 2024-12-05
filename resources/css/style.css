@@ -38,9 +38,9 @@
 /* fonts */
 
 .titleFont{
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 70pt;
-}
+    font-family: "Inknut Antiqua", serif;
+
+  }
 
 .allFont{
     font-family: "Lora", serif;
@@ -63,10 +63,54 @@ body{
 }
 
 /* navbar */
+
+/* animazione della navbar allo scroll della pagina */
+.nav-scrolled{
+animation: fade-down 3s;
+}
+
+@keyframes fade-down{
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* fine animazione della navbar allo scroll della pagina */
+/* animazione: rotazione logo all'hover del mouse */
+.logoHotel:hover {
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-direction:reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* fine animazione: rotazione logo all'hover del mouse */
 .logoHotel{
       height: 50px;
-      width: 70px;
+      width: 90px;
+      padding: 4px;
 }
+
+
+
+.titleMod{
+    font-weight:700; 
+    font-style: bold;
+    font-size: 50pt;
+    letter-spacing: 10px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
 
 #mainImage{
     height: 700px;
