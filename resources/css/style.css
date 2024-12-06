@@ -7,54 +7,44 @@
     /* black olive */
     --color-3: rgb(48, 54, 47);
     /* chocolate cosmos */
-    --color-4: rgb(83, 19, 30);
-}
+    --color-4: rgb(83, 19, 30);}
 
 .color-1{
-    color: var(--color-1);
-}
+    color: var(--color-1);}
 .color-2{
-    color: var(--color-2);
-}
+    color: var(--color-2);}
 .color-3{
-    color: var(--color-3);
-}
+    color: var(--color-3);}
 .color-4{
-    color: var(--color-4);
-}
+    color: var(--color-4);}
 .bg-1{
-    background-color: var(--color-1);
-}
+    background-color: var(--color-1);}
 .bg-2{
-    background-color: var(--color-2);
-}
+    background-color: var(--color-2);}
 .bg-3{
-    background-color: var(--color-3);
-}
+    background-color: var(--color-3);}
 .bg-4{
-    background-color: var(--color-4);
-}
+    background-color: var(--color-4);}
 
 /* fonts */
-
 .titleFont{
-    font-family: "Inknut Antiqua", serif;
-
-  }
+    font-family: "Inknut Antiqua", serif;}
 
 .allFont{
-    font-family: "Lora", serif;
-}
+    font-family: "Lora", serif;}
 
 .altFont{
-    font-family: "PT Serif", serif;
-}
+    font-family: "PT Serif", serif;}
 
 body{
-    background-color: var(--color-2)
-}
+    background-color: var(--color-2)}
 
-/*  header */
+a {
+    text-decoration: none;
+        color: white;
+    }
+
+/*  inizio header */
 .headerStyle{
     font-size: 12pt;
     color: var(--color-1);
@@ -100,8 +90,7 @@ animation: fade-down 3s;
       width: 90px;
       padding: 4px;
 }
-
-
+/* fine NAVBAR */
 
 .titleMod{
     font-weight:700; 
@@ -111,8 +100,22 @@ animation: fade-down 3s;
     text-shadow: #FC0 1px 0 10px;
 }
 
+.serviziMod{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
 
 #mainImage{
     height: 700px;
     width: 80%;
+}
+
+.fa-new{
+  font-size: xx-large;
+}
+
+.box-header{
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
