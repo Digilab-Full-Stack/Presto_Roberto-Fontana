@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1,
+        "name": "Prima colazione gluten-free",
+        "category": "Prima colazione",
+        "price": "15.00"
+    },
+    {
+        "id": 2,
+        "name": "Prima colazione standard",
+        "category": "Prima colazione",
+        "price": "15.00"
+    },
+    {
+        "id": 3,
+        "name": "Prima colazione full",
+        "category": "Prima colazione",
+        "price": "25.00"
+    },
+    {
+        "id": 4,
+        "name": "Camera Singola - Regale",
+        "category": "Camere",
+        "price": "150.00"
+    },
+    {
+        "id": 5,
+        "name": "Camera Doppia - Regale",
+        "category": "Camere",
+        "price": "220.00"
+    },
+    {
+        "id": 6,
+        "name": "Camera Matrimoniale - Regale",
+        "category": "Camere",
+        "price": "220.00"
+    },
+    {
+        "id": 7,
+        "name": "Camera Singola - Jolly",
+        "category": "Camere",
+        "price": "165.00"
+    },
+    {
+        "id": 8,
+        "name": "Camera Matrimoniale - Jolly",
+        "category": "Camere",
+        "price": "285.00"
+    },
+    {
+        "id": 9,
+        "name": "Camera Singola - Consiglieri",
+        "category": "Camere",
+        "price": "110.00"
+    },
+    {
+        "id": 10,
+        "name": "Camera Doppia - Consiglieri",
+        "category": "Camere",
+        "price": "180.00"
+    },
+    {
+        "id": 11,
+        "name": "Camera Tripla - Consiglieri",
+        "category": "Camere",
+        "price": "245.00"
+    },
+    {
+        "id": 12,
+        "name": "Camera Singola - Nido del Principe",
+        "category": "Camere",
+        "price": "145.00"
+    },
+    {
+        "id": 13,
+        "name": "Camera Doppia - Nido del Principe",
+        "category": "Camere",
+        "price": "215.00"
+    },
+    {
+        "id": 14,
+        "name": "Camera Tripla - Nido del Principe",
+        "category": "Camere",
+        "price": "285.00"
+    },
+    {
+        "id": 15,
+        "name": "Noleggio mountainbike",
+        "category": "Servizi",
+        "price": "85.00"
+    },
+    {
+        "id": 16,
+        "name": "Tour con cavallo",
+        "category": "Servizi",
+        "price": "135.00"
+    },
+    {
+        "id": 17,
+        "name": "Sessione Trekking",
+        "category": "Servizi",
+        "price": "70.00"
+    },
+    {
+        "id": 17,
+        "name": "Sessione Trekking - con Guida",
+        "category": "Servizi",
+        "price": "110.00"
+    },
+    {
+        "id": 19,
+        "name": "Sessione Birdwatching - con Guida",
+        "category": "Servizi",
+        "price": "145.00"
+    },
+    {
+        "id": 21,
+        "name": "Vasca idromassaggio",
+        "category": "Servizi",
+        "price": "45.00"
+    },
+    {
+        "id": 22,
+        "name": "Campo da Tennis - 1h30m",
+        "category": "Servizi",
+        "price": "115.00"
+    },
+    {
+        "id": 23,
+        "name": "Campo da Padel - 1h",
+        "category": "Servizi",
+        "price": "90.00"
+    },
+    {
+        "id": 24,
+        "name": "Lezione di Tennis",
+        "category": "Servizi",
+        "price": "50.00"
+    },
+    {
+        "id": 25,
+        "name": "Lezione di Padel",
+        "category": "Servizi",
+        "price": "35.00"
+    },
+    {
+        "id": 26,
+        "name": "Torneo di Tennis - min. 3 gg.",
+        "category": "Servizi",
+        "price": "350.00"
+    },
+    {
+        "id": 27,
+        "name": "Torneo di Padel - min. 3 gg.",
+        "category": "Servizi",
+        "price": "350.00"
+    },
+    {
+        "id": 28,
+        "name": "Posto auto - giornaliero",
+        "category": "Servizi",
+        "price": "45.00"
+    },
+    {
+        "id": 29,
+        "name": "Animale domestico - una tantum",
+        "category": "Extra",
+        "price": "85.00"
+    },
+    {
+        "id": 30,
+        "name": "Kit benvenuto - prodotti enogastronomici",
+        "category": "Extra",
+        "price": "85.00"
+    },
+    {
+        "id": 31,
+        "name": "Kit benvenuto - accessori bagno",
+        "category": "Extra",
+        "price": "35.00"
+    },
+    {
+        "id": 32,
+        "name": "Kit benvenuto - completo ciclista",
+        "category": "Extra",
+        "price": "55.00"
+    }
+]

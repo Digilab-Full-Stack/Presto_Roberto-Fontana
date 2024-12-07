@@ -14,10 +14,17 @@ Implementare le seguenti funzionalità:
    - Implementare AOS per animare degli elementi
    - Creare una funzione asincrona (setInterval() e clearInterval() visti a lezione) da implementare all'interno del progetto
 
-⚠️ Alcuni suggerimenti per lavorare singolarmente, ma all'interno di un team di persone:
 
-    Ognuno sceglie il proprio template.Si lavorerà singolarmente, ognuno sul proprio pc
-    Confrontatevi tra di voi e lavorate insieme (sempre ognuno nel proprio progetto) per TUTTE le funzionalità del sito, mentre per lo stile siete liberi di farlo insieme oppure no.
-    OGNUNO DI VOI DOVRÀ CREARE OGGI STESSO UNA REPOSITORY CHE CONTIENE IL PROPRIO PROGETTO
+Esercitazione presto 2
 
-⚠️ I BUDDY RIMARRANNO GLI STESSI FINO ALLA FINE DEL PROGETTO PRESTO -->
+                            
+TRACCIA:
+
+
+Continuare il progetto iniziato aggiungendo le seguenti funzionalità:
+
+    aggiungere i fogli annunci.js e annunci.html
+    aggiungere un file json (lo trovate in allegato alla lezione di ieri)
+    implementare la fetch() per collegarsi al json
+    implementare la logica dei filtri per prezzo, categoria e parola
+

@@ -33,16 +33,12 @@
 .allFont{
     font-family: "Lora", serif;}
 
-.altFont{
-    font-family: "PT Serif", serif;}
+.altFont{font-family: "PT Serif", serif;}
 
-body{
-    background-color: var(--color-2)}
+body{background-color: var(--color-2)}
 
-a {
-    text-decoration: none;
-        color: white;
-    }
+a {text-decoration: none;
+        color: white;}
 
 /*  inizio header */
 .headerStyle{
@@ -70,6 +66,12 @@ animation: fade-down 3s;
 
 /* fine animazione della navbar allo scroll della pagina */
 /* animazione: rotazione logo all'hover del mouse */
+.logoHotel{
+    height: 50px;
+    width: 90px;
+    padding: 4px;
+}
+
 .logoHotel:hover {
     animation-name: rotate;
     animation-duration: 1s;
@@ -85,11 +87,7 @@ animation: fade-down 3s;
     }
   }
   /* fine animazione: rotazione logo all'hover del mouse */
-.logoHotel{
-      height: 50px;
-      width: 90px;
-      padding: 4px;
-}
+
 /* fine NAVBAR */
 
 .titleMod{
@@ -97,8 +95,30 @@ animation: fade-down 3s;
     font-style: bold;
     font-size: 50pt;
     letter-spacing: 10px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: rgb(184, 166, 86) 3px 0 10px;
 }
+
+@media screen and (max-width: 675px) {
+    .titleMod {
+        font-size: 40pt;
+    }
+  } 
+@media screen and (max-width: 560px) {
+    .titleMod {
+        font-size: 25pt;
+    }
+  } 
+  @media screen and (max-width: 390px) {
+    .titleMod {
+        font-size: 15pt;
+    }
+  } 
+  @media screen and (max-width: 278px) {
+    .titleMod {
+        display: none;
+    }
+  } 
+
 
 .serviziMod{
     font-family: "PT Serif", serif;
@@ -118,4 +138,16 @@ animation: fade-down 3s;
     padding: 5%;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: rgba(255,255,255,0.4);
 }
+
+/* fine HEADER */
+
+/* inizio CAROUSEL */
+
+.imgCustom{
+    height: 400px;
+    border-radius: 30px;
+    border: 3px black solid;
+}
+/* fine CAROUSEL */

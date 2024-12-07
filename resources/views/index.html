@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hotel Castellano</title>
 
+    <!-- CDN AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +35,6 @@
     <!-- inizio HEADER -->
     <div class="container-fluid p-2 headerStyle">
         <div class="row ms-5">
-            <!-- AGGIUNGERE ICONE PRIMA DELLE INFO -->
             <div class="col-12 col-md-4 col-lg-5"><i class="fa-solid fa-location-dot"></i>
                 Via dei Pellegrini 18, 88068 Soverato, Catanzaro
             </div>
@@ -49,7 +51,6 @@
     </div>
 
     <!-- inizio NAVBAR -->
-
     <nav id="navBar" class="navbar navbar-expand-lg altFont bg-1 fs-4 p-0 sticky-top nav-scrolled">
         <div class="container-fluid">
 
@@ -67,18 +68,18 @@
                         <a class="nav-link" href="#">Il Castello</a>
                     </li>
                     <li class="nav-item dropdown border-end">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="../views/products.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Le Camere
                         </a>
                         <ul class="dropdown-menu fs-4">
-                            <li><a class="dropdown-item" href="#">Nido del Principe</a></li>
-                            <li><a class="dropdown-item" href="#">Camera Regale</a></li>
-                            <li><a class="dropdown-item" href="#">Camera Consiglieri</a></li>
-                            <li><a class="dropdown-item" href="#">Camera Jolly</a></li>
+                            <li><a class="dropdown-item" href="../views/products.html">Nido del Principe</a></li>
+                            <li><a class="dropdown-item" href="../views/products.html">Camera Regale</a></li>
+                            <li><a class="dropdown-item" href="../views/products.html">Camera Consiglieri</a></li>
+                            <li><a class="dropdown-item" href="../views/products.html">Camera Jolly</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
                     </li>
                 </ul>
@@ -90,106 +91,159 @@
             </div>
         </div>
     </nav>
-
     <!-- fine NAVBAR -->
 
     <!-- continuazione HEADER -->
-
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-12 col-md-8">
+    <div class="container-fluid">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-12 col-md-8 ">
                 <img src="../../media/mainImage.gif" alt="castello" class="img-fluid rounded-pill ">
             </div>
-            <div class="col-12 col-md-4 ">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="row">
-                <h1 class="titleFont titleMod text-center mt-4 p-2">HOTEL CASTELLANO</h1>
-            </div>
         </div>
-        <hr>
-        <h2 class="serviziMod text-center">ESPERIENZE E SERVIZI</h2>
+
+        <div class="row">
+            <h1 class="titleFont titleMod text-center mt-4 p-2">HOTEL CASTELLANO</h1>
+        </div>
+    </div>
+    <hr>
+    <h2 class="serviziMod text-center">ESPERIENZE E SERVIZI</h2>
+    <div class="container">
         <div class="row mt-5">
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="300">
                 <div class="box-header">
-                    <i class="fa-solid fa-bath fa-new"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <i class="fa-solid fa-person-biking fa-new"></i>
+                    <p>Noleggio mountain bike, con o senza guida esperta. Numerosi tracciati disponibili.
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="400">
                 <div class="box-header">
                     <i class="fa-solid fa-horse fa-new"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <p>Esplora le meraviglie della corte del Castellano in sella a un cavallo. Con guida.
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="500">
                 <div class="box-header">
-                    <i class="fa-solid fa-bath"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <i class="fa-solid fa-person-hiking fa-new"></i>
+                    <p>Sessioni di trekking nelle vaste colline della corte, alla scoperta delle antiche tradizioni.
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="600">
                 <div class="box-header">
-                    <i class="fa-solid fa-bath"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <i class="fa-solid fa-crow fa-new"></i>
+                    <p>Percorsi specifici per birdwatching della fauna locale, con mappa sentieri e guida esperta.
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="700">
                 <div class="box-header">
-                    <i class="fa-solid fa-bath"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <i class="fa-solid fa-bath fa-new"></i>
+                    <p>Vasca idromassaggio con doccia sensoriale. Disponibile nelle Camere Jolly.
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-lg-2">
+            <div class="col-4 col-lg-2 my-1" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" data-aos-delay="800">
                 <div class="box-header">
-                    <i class="fa-solid fa-bath"></i>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <i class="fa-solid fa-table-tennis-paddle-ball fa-new"></i>
+                    <p>Campi da tennis e da padel, con possibilità di mini corsi e mini-tornei (su prenotazione).
                     </p>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- fine HEADER -->
+    <hr>
+    <!-- inizio CAROUSEL -->
+    <div class="container fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../media/castelloOttocento.jpg" class="d-block w-100 imgCustom" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Il Castello</h5>
+                                <p>Esplorea liberamente la corte del Castellano e immergiti nella incantevole cornice
+                                    ottocentesca di questo incantevole luogo senza tempo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../media/cameraMatrimoniale.jpg" class="d-block w-100 imgCustom" alt="...">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5>Camera Regale</h5>
+                                <p>Ampie Camere matrimoniali con letti extra-size, finemente arredate con mobili e opere
+                                    d'arte di pregio.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../media/cameraBreakfast.jpg" class="d-block w-100 imgCustom" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sala Breakfast</h5>
+                                <p>Una ricca colazione intercontinentale a buffet ti darà il buongiorno e la carica
+                                    giusta per goderti uno dei tanti svaghi disponibili.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
-
+            </div>
+        </div>
+    </div>
+    <!-- fine CAROUSEL -->
 
     <!-- inizio FOOTER -->
-
     <footer class="py-3 my-4 ">
-        <ul class="nav justify-content-center border-bottom pb-2 mb-1 bg-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Dove siamo</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
-        </ul>
-        <p class="text-center  bg-3 text-white">© 2024 Company, Inc</p>
+        <div class="container-fluid p-2 headerStyle">
+            <div class="row ms-5">
+                <div class="col-12 col-md-4 col-lg-5"><i class="fa-solid fa-location-dot"></i>
+                    Via dei Pellegrini 18, 88068 Soverato, Catanzaro
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <i class="fa-solid fa-phone"></i> +0968 000 000
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <a href="mailto:hotelcastellano@newmail.it">
+                        <i class="fa-solid fa-envelope "></i>
+                        hotelcastellano@newmail.it
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="text-center  bg-3 text-white p-2"> Bob Enterprise® - © 2025 Tutti I diritti riservati - P.Iva
+            03003003000
+            - Privacy Policy
+        </p>
     </footer>
-
-
     <!-- fine FOOTER -->
+
+
+
 
     <!-- AoS JS  -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
