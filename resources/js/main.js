@@ -1,4 +1,7 @@
-// catturare elemento a cui associare l'evento "scroll"
+
+// aggiunta e rimozionedi una classe nav-scrolled all'elemento con l'ID navBar 
+//  in base alla posizione di scorrimento della finestra
+
 let nav = document.querySelector("#navBar");
 
 
@@ -11,3 +14,15 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// Creazione filtri di ricerca
+// chiamata asincrona
+
+fetch('../products.json')
+    .then((forFilter) => forFilter.json())
+    .then(dataInfo => {
+
+        dataInfo.forEach(product => {
+            console.log(product.category);
+        });
+
+    })
