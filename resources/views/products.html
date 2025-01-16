@@ -97,14 +97,11 @@
     </nav>
     <!-- fine NAVBAR -->
 
-    <!-- inizio sezione FILTRI RICERCA -->
-
-    <!-- inizio HEADER -->
+    <!-- continua HEADER -->
     <header class="container bg-3 color-1 py-4">
         <div class="row">
             <div class="col-12">
-                <h1 class="altFont color-2">Prenota qui il tuo posto nel regno di...</h1>
-                <h2 class="titleFont titleMod color-3 t-dark py-3 text-center">HOTEL CASTELLANO</h2>
+                <h1 class="titleFont titleMod color-3 t-dark py-3 text-center">HOTEL CASTELLANO</h1>
             </div>
         </div>
     </header>
@@ -113,10 +110,7 @@
     <!-- inizio sezione FILTRI RICERCA -->
     <section class="container-fluid ">
         <div class="row altFont">
-            <div class="col-12 col-md-6">
-
-                <!-- accordion per filtri -->
-
+            <div class="col-12 col-md-4">
                 <div class="accordion " id="accordionPanelsStayOpenExample">
                     <div class="accordion-item bg-2">
                         <h2 class="accordion-header">
@@ -126,9 +120,14 @@
                                 NUMERO OSPITI
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <p>ADULTI</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadio1" id="inlineRadio1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">0</label>
+                                </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inlineRadio1" id="inlineRadio1"
                                         value="option1">
@@ -144,19 +143,18 @@
                                         value="option1">
                                     <label class="form-check-label" for="inlineRadio1">3</label>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadio1" id="inlineRadio1"
-                                        value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">4</label>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item bg-2">
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <p>BAMBINI (fino a 12 anni)</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadioOptions" value="optionX">
+                                    <label class="form-check-label" for="inlineRadioOptions">0</label>
+                                </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                         id="inlineRadioOptions" value="optionX">
@@ -179,20 +177,8 @@
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadio1" id="flexRadio1">
-                                    <label class="form-check-label" for="flexRadio1">
-                                        Radio 1
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadio2" id="flexRadio2">
-                                    <label class="form-check-label" for="flexRadio2">
-                                        Radio 2
-                                    </label>
-                                </div>
-
+                            <div class="accordion-body" id="radioWrapper">
+                                <!-- riempito dinamicamente -->
                             </div>
                         </div>
                     </div>
@@ -205,43 +191,20 @@
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckChecked">
-                                    <label class="form-check-label" for="flexSwitchCheckChecked"> switch checkbox
-                                        input</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckChecked">
-                                    <label class="form-check-label" for="flexSwitchCheckChecked"> switch checkbox
-                                        input</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckChecked">
-                                    <label class="form-check-label" for="flexSwitchCheckChecked"> switch
-                                        checkbox input</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckChecked">
-                                    <label class="form-check-label" for="flexSwitchCheckChecked">
-                                        switch checkbox input</label>
-                                </div>
+                            <div class="accordion-body" id="switchWrapper">
+                                <!-- riempito dinamicamente -->
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item bg-2">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed bg-2" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseThree">
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
                                 PREZZO
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <label for="customRange1" class="form-label">Min €</label>
                                 <input type="range" class="form-range" id="customRange1">
@@ -250,31 +213,55 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed bg-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFive">
                                 RICERCA PER PAROLA
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show"
-                            data-bs-parent="#accordionExample">
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
+
+                                <!-- inserire barra di ricerca -->
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- fine sezione FILTRI RICERCA -->
 
+            <div class="col-12 col-md-4">
+                <h3 class="color-1 text-center bg-4 py-2 ">La tua Camera</h3>
+                <!-- <div class="container-fluid"> -->
+                <div class="row" id="cards1Wrapper">
+                    <div class="col-6 col-md-4">
+                        <!-- riempita con cards dinamicamente -->
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="col-12 col-md-4 cardCustom fs-6">
+                <h3 class="color-1 text-center bg-4 py-2 ">Attività</h3>
+                <!-- <div class="container-fluid"> -->
+                <div class="row " id="cards2Wrapper">
+                    <!-- riempita con cards dinamicamente -->
+                </div>
+                <!-- </div> -->
+            </div>
+
+
+            <div class="col-12 col-md-3 mt-2 d-flex justify-content-center "> <button type="submit"
+                    class="color-4 mt-2 altFont rounded-pill">Conferma prenotazione</button> </div>
+    </section>
+
+    <!-- fine sezione FILTRI RICERCA -->
 
     <!-- inizio FOOTER -->
 
-    <footer class="py-3 my-4 ">
-        <div class="container-fluid p-2 headerStyle">
-            <div class="row ms-5">
-                <div class="col-12 col-md-4 col-lg-5"><i class="fa-solid fa-location-dot"></i>
+    <footer class="py-3 my-4 bg-2 ">
+        <div class="container-fluid p-2 headerStyle border">
+            <div class="row ms-5 ">
+                <div class="col-12 col-md-4 col-lg-5 "><i class="fa-solid fa-location-dot"></i>
                     Via dei Pellegrini 18, 88068 Soverato, Catanzaro
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
@@ -288,10 +275,13 @@
                 </div>
             </div>
         </div>
-        <p class="text-center  bg-3 text-white p-2"> Bob Enterprise® - © 2025 Tutti I diritti riservati - P.Iva
+
+        <p class="text-center  bg-3 text-white p-2 "> Bob Enterprise® - © 2025 Tutti I diritti riservati -
+            P.Iva
             03003003000
             - Privacy Policy
         </p>
+
     </footer>
 
     <!-- fine FOOTER -->
@@ -312,6 +302,7 @@
 
     <!-- My JS -->
     <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
 </body>
 
 </html>

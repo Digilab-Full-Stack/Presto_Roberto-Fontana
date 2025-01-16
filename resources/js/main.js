@@ -14,15 +14,3 @@ window.addEventListener('scroll', () => {
     }
 })
 
-// Creazione filtri di ricerca
-// chiamata asincrona
-
-fetch('../products.json')
-    .then((forFilter) => forFilter.json())
-    .then(dataInfo => {
-
-        dataInfo.forEach(product => {
-            console.log(product.category);
-        });
-
-    })

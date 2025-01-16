@@ -169,3 +169,11 @@ color: var(--color-4);
     border: 3px black solid;
 }
 /* fine CAROUSEL */
+
+
+/* modifica CARDS */
+.fixed-height-card .card-body { 
+    min-height: 200px; /* Riduci l'altezza della card-body, sottraendo l'altezza dell'immagine */ 
+    overflow: hidden; /* Abilita lo scroll verticale */ 
+
+}

@@ -85,13 +85,13 @@
     },
     {
         "id": 15,
-        "name": "Noleggio mountainbike",
+        "name": "Noleggio mountain bike",
         "category": "Servizi",
         "price": "85.00"
     },
     {
         "id": 16,
-        "name": "Tour con cavallo",
+        "name": "Tour a cavallo",
         "category": "Servizi",
         "price": "135.00"
     },
@@ -157,30 +157,24 @@
     },
     {
         "id": 28,
-        "name": "Posto auto - giornaliero",
-        "category": "Servizi",
-        "price": "45.00"
-    },
-    {
-        "id": 29,
         "name": "Animale domestico - una tantum",
         "category": "Extra",
         "price": "85.00"
     },
     {
-        "id": 30,
+        "id": 29,
         "name": "Kit benvenuto - prodotti enogastronomici",
         "category": "Extra",
         "price": "85.00"
     },
     {
-        "id": 31,
+        "id": 30,
         "name": "Kit benvenuto - accessori bagno",
         "category": "Extra",
         "price": "35.00"
     },
     {
-        "id": 32,
+        "id": 31,
         "name": "Kit benvenuto - completo ciclista",
         "category": "Extra",
         "price": "55.00"
